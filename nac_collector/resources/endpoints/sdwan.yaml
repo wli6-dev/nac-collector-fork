@@ -352,6 +352,11 @@
     endpoint: /qos-policy
   - name: application_priority_traffic_policy
     endpoint: /traffic-policy
+- name: topology_feature_profile
+  endpoint: /v1/feature-profile/sdwan/topology
+  children:
+  - name: topology_custom_control
+    endpoint: /custom-control
 - name: other_feature_profile
   endpoint: /v1/feature-profile/sdwan/other
   children:
@@ -425,6 +430,8 @@
   endpoint: /template/policy/definition/hubandspoke/
 - name: expanded_community_list_policy_object
   endpoint: /template/policy/list/expandedcommunity/
+- name: topology_group
+  endpoint: /v1/topology-group/
 - name: cli_device_template
   endpoint: /template/device/
 - name: application_aware_routing_policy_definition
