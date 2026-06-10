@@ -386,6 +386,8 @@
   endpoint: /template/policy/vsmart/
 - name: localized_policy
   endpoint: /template/policy/vedge/
+- name: custom_application
+  endpoint: /template/policy/customapp/
 - name: site_list_policy_object
   endpoint: /template/policy/list/site/
 - name: ipv4_device_acl_policy_definition
