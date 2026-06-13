@@ -352,6 +352,15 @@
     endpoint: /zscaler
   - name: sse_cisco
     endpoint: /cisco
+- name: topology_feature_profile
+  endpoint: /v1/feature-profile/sdwan/topology
+  children:
+  - name: topology_hubspoke
+    endpoint: /hubspoke
+  - name: topology_mesh
+    endpoint: /mesh
+  - name: topology_custom_control
+    endpoint: /custom-control
 - name: embedded_security_feature_profile
   endpoint: /v1/feature-profile/sdwan/embedded-security
   children:
@@ -380,11 +389,6 @@
     endpoint: /policy-settings
   - name: application_priority_traffic_policy
     endpoint: /traffic-policy
-- name: topology_feature_profile
-  endpoint: /v1/feature-profile/sdwan/topology
-  children:
-  - name: topology_custom_control
-    endpoint: /custom-control
 - name: protocol_list_policy_object
   endpoint: /template/policy/list/protocolname/
 - name: tls_ssl_profile_policy_definition
