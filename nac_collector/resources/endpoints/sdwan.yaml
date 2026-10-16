@@ -177,69 +177,72 @@
     name: policy_object_security_data_ipv4_prefix_list
     endpoint: /security-data-ip-prefix
   - &id016
+    name: policy_object_security_data_ipv6_prefix_list
+    endpoint: /security-data-ipv6-prefix
+  - &id017
     name: policy_object_security_fqdn_list
     endpoint: /security-fqdn
-  - &id017
+  - &id018
     name: policy_object_security_geolocation_list
     endpoint: /security-geolocation
-  - &id018
+  - &id019
     name: policy_object_security_identity_list
     endpoint: /security-identity
-  - &id019
+  - &id020
     name: policy_object_security_ips_signature
     endpoint: /security-ipssignature
-  - &id020
+  - &id021
     name: policy_object_security_local_application_list
     endpoint: /security-localapp
-  - &id021
+  - &id022
     name: policy_object_security_local_domain_list
     endpoint: /security-localdomain
-  - &id022
+  - &id023
     name: policy_object_security_port_list
     endpoint: /security-port
-  - &id023
+  - &id024
     name: policy_object_security_protocol_list
     endpoint: /security-protocolname
-  - &id024
+  - &id025
     name: policy_object_security_scalable_group_tag_list
     endpoint: /security-scalablegrouptag
-  - &id025
+  - &id026
     name: policy_object_security_url_allow_list
     endpoint: /security-urllist
-  - &id026
+  - &id027
     name: policy_object_security_url_block_list
     endpoint: /security-urllist
-  - &id027
+  - &id028
     name: policy_object_security_zone
     endpoint: /security-zone
-  - &id028
+  - &id029
     name: policy_object_sla_class_list
     endpoint: /sla-class
-  - &id029
+  - &id030
     name: policy_object_standard_community_list
     endpoint: /standard-community
-  - &id030
+  - &id031
     name: policy_object_tloc_list
     endpoint: /tloc
-  - &id031
+  - &id032
     name: policy_object_unified_advanced_inspection_profile
     endpoint: /unified/advanced-inspection-profile
-  - &id032
+  - &id033
     name: policy_object_unified_advanced_malware_protection
     endpoint: /unified/advanced-malware-protection
-  - &id033
+  - &id034
     name: policy_object_unified_intrusion_prevention
     endpoint: /unified/intrusion-prevention
-  - &id034
+  - &id035
     name: policy_object_unified_tls_ssl_decryption
     endpoint: /unified/ssl-decryption
-  - &id035
+  - &id036
     name: policy_object_unified_tls_ssl_profile
     endpoint: /unified/ssl-decryption-profile
-  - &id036
+  - &id037
     name: policy_object_unified_url_filtering
     endpoint: /unified/url-filtering
-  - &id037
+  - &id038
     name: policy_object_vpn_group
     endpoint: /vpn-group
 - name: policy_object_feature_profile_parcels
@@ -282,6 +285,7 @@
   - *id035
   - *id036
   - *id037
+  - *id038
 - name: port_list_policy_object
   endpoint: /template/policy/list/port/
 - name: preferred_color_group_policy_object
