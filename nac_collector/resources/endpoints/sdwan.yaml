@@ -198,51 +198,57 @@
     name: policy_object_security_local_domain_list
     endpoint: /security-localdomain
   - &id023
+    name: policy_object_security_object_group
+    endpoint: /security-object-group
+  - &id024
     name: policy_object_security_port_list
     endpoint: /security-port
-  - &id024
+  - &id025
     name: policy_object_security_protocol_list
     endpoint: /security-protocolname
-  - &id025
+  - &id026
+    name: policy_object_security_rule_set
+    endpoint: /security-rule-set
+  - &id027
     name: policy_object_security_scalable_group_tag_list
     endpoint: /security-scalablegrouptag
-  - &id026
+  - &id028
     name: policy_object_security_url_allow_list
     endpoint: /security-urllist
-  - &id027
+  - &id029
     name: policy_object_security_url_block_list
     endpoint: /security-urllist
-  - &id028
+  - &id030
     name: policy_object_security_zone
     endpoint: /security-zone
-  - &id029
+  - &id031
     name: policy_object_sla_class_list
     endpoint: /sla-class
-  - &id030
+  - &id032
     name: policy_object_standard_community_list
     endpoint: /standard-community
-  - &id031
+  - &id033
     name: policy_object_tloc_list
     endpoint: /tloc
-  - &id032
+  - &id034
     name: policy_object_unified_advanced_inspection_profile
     endpoint: /unified/advanced-inspection-profile
-  - &id033
+  - &id035
     name: policy_object_unified_advanced_malware_protection
     endpoint: /unified/advanced-malware-protection
-  - &id034
+  - &id036
     name: policy_object_unified_intrusion_prevention
     endpoint: /unified/intrusion-prevention
-  - &id035
+  - &id037
     name: policy_object_unified_tls_ssl_decryption
     endpoint: /unified/ssl-decryption
-  - &id036
+  - &id038
     name: policy_object_unified_tls_ssl_profile
     endpoint: /unified/ssl-decryption-profile
-  - &id037
+  - &id039
     name: policy_object_unified_url_filtering
     endpoint: /unified/url-filtering
-  - &id038
+  - &id040
     name: policy_object_vpn_group
     endpoint: /vpn-group
 - name: policy_object_feature_profile_parcels
@@ -286,6 +292,8 @@
   - *id036
   - *id037
   - *id038
+  - *id039
+  - *id040
 - name: port_list_policy_object
   endpoint: /template/policy/list/port/
 - name: preferred_color_group_policy_object
