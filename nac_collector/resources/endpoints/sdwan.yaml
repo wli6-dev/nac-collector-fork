@@ -269,6 +269,11 @@
     endpoint: /trackergroup
   - name: service_wireless_lan
     endpoint: /wirelesslan
+- name: sig_security_feature_profile
+  endpoint: /v1/feature-profile/sdwan/sig-security
+  children:
+  - name: sig
+    endpoint: /sig
 - name: sse_feature_profile
   endpoint: /v1/feature-profile/sdwan/sse
   children:
@@ -530,8 +535,6 @@
   endpoint: /v1/resource-domain/
 - name: security_policy
   endpoint: /template/policy/security/
-- name: sig_security_feature_profile
-  endpoint: /v1/feature-profile/sdwan/sig-security
 - name: site_list_policy_object
   endpoint: /template/policy/list/site/
 - name: sla_class_policy_object
