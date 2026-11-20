@@ -92,63 +92,66 @@
     name: policy_object_security_ips_signature
     endpoint: /security-ipssignature
   - &id021
+    name: policy_object_security_ips_signature_set
+    endpoint: /security-ipssignatureset
+  - &id022
     name: policy_object_security_local_application_list
     endpoint: /security-localapp
-  - &id022
+  - &id023
     name: policy_object_security_local_domain_list
     endpoint: /security-localdomain
-  - &id023
+  - &id024
     name: policy_object_security_object_group
     endpoint: /security-object-group
-  - &id024
+  - &id025
     name: policy_object_security_port_list
     endpoint: /security-port
-  - &id025
+  - &id026
     name: policy_object_security_protocol_list
     endpoint: /security-protocolname
-  - &id026
+  - &id027
     name: policy_object_security_rule_set
     endpoint: /security-rule-set
-  - &id027
+  - &id028
     name: policy_object_security_scalable_group_tag_list
     endpoint: /security-scalablegrouptag
-  - &id028
+  - &id029
     name: policy_object_security_url_allow_list
     endpoint: /security-urllist
-  - &id029
+  - &id030
     name: policy_object_security_url_block_list
     endpoint: /security-urllist
-  - &id030
+  - &id031
     name: policy_object_security_zone
     endpoint: /security-zone
-  - &id031
+  - &id032
     name: policy_object_sla_class_list
     endpoint: /sla-class
-  - &id032
+  - &id033
     name: policy_object_standard_community_list
     endpoint: /standard-community
-  - &id033
+  - &id034
     name: policy_object_tloc_list
     endpoint: /tloc
-  - &id034
+  - &id035
     name: policy_object_unified_advanced_inspection_profile
     endpoint: /unified/advanced-inspection-profile
-  - &id035
+  - &id036
     name: policy_object_unified_advanced_malware_protection
     endpoint: /unified/advanced-malware-protection
-  - &id036
+  - &id037
     name: policy_object_unified_intrusion_prevention
     endpoint: /unified/intrusion-prevention
-  - &id037
+  - &id038
     name: policy_object_unified_tls_ssl_decryption
     endpoint: /unified/ssl-decryption
-  - &id038
+  - &id039
     name: policy_object_unified_tls_ssl_profile
     endpoint: /unified/ssl-decryption-profile
-  - &id039
+  - &id040
     name: policy_object_unified_url_filtering
     endpoint: /unified/url-filtering
-  - &id040
+  - &id041
     name: policy_object_vpn_group
     endpoint: /vpn-group
 - name: policy_object_feature_profile_parcels
@@ -194,6 +197,7 @@
   - *id038
   - *id039
   - *id040
+  - *id041
 - name: service_feature_profile
   endpoint: /v1/feature-profile/sdwan/service
   children:
